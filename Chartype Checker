@@ -1,0 +1,20 @@
+public class chartypechecker {
+	public static void main(String[] args) {
+		char ch='@';
+		System.out.println("Data type of variable:" +((Object)ch).getClass().getSimpleName());
+		if(Character.isLetter(ch))
+		{    
+			System.out.println("Alphabets");
+		}
+		else if(Character.isDigit(ch))
+		
+		{
+			System.out.println("Digit");
+		}
+		else
+		{
+			System.out.println("Special Character");
+		}
+	}
+
+}
